@@ -44,7 +44,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -85,5 +85,32 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+   - family: Geist
+     fonts:
+       - asset: fonts/Geist/ttf/Geist-Regular.ttf
+         weight: 400
+         style: normal
+       - asset: fonts/Geist/ttf/Geist-RegularItalic.ttf
+         weight: 400
+         style: italic
+       - asset: fonts/Geist/ttf/Geist-SemiBold.ttf
+         weight: 600
+         style: normal
+       - asset: fonts/Geist/ttf/Geist-SemiBoldItalic.ttf
+         weight: 600
+         style: italic
+       - asset: fonts/Geist/ttf/Geist-Bold.ttf
+         weight: 700
+         style: normal
+       - asset: fonts/Geist/ttf/Geist-BoldItalic.ttf
+         weight: 700
+         style: italic
+       - asset: fonts/Geist/ttf/Geist-ExtraBold.ttf
+         weight: 800
+         style: normal
+       - asset: fonts/Geist/ttf/Geist-ExtraBoldItalic.ttf
+         weight: 800
+         style: italic
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
